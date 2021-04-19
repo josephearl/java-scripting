@@ -1,6 +1,6 @@
 #!/usr/bin/env java --source 11
 
-class HelloWorld {
+class hello {
   public static void main(String[] args) {
     System.out.println("Hello Java!");
   }

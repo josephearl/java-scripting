@@ -11,3 +11,13 @@ References:
 * https://docs.oracle.com/javase/9/jshell/scripts.htm
 * https://stackoverflow.com/questions/44916618/how-to-execute-a-java-script-with-jshell
 * https://www.baeldung.com/java-single-file-source-code
+
+Scripts:
+
+* hello:
+  * JShell: `jshell hello.jsh`
+  * JShell with a Shebang: `./hello.jsh`
+  * Single-File Source-Code Program: `java Hello.java`
+  * Single-File Source-Code Program with a Shebang: `./hello`
+* ls: `./ls [dir]`
+* curl: `./curl <url>`
