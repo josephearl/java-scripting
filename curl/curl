@@ -6,7 +6,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class ClientUrl {
+public class ClientURL {
   public static void main(String[] args) throws IOException, InterruptedException {
     var url = args[0];
 
