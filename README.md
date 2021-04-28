@@ -9,6 +9,7 @@ This repository shows several approaches to writing scripts with Java:
 References:
 
 * https://docs.oracle.com/javase/9/jshell/scripts.htm
+* https://cr.openjdk.java.net/~rfield/tutorial/JShellTutorial.html
 * https://stackoverflow.com/questions/44916618/how-to-execute-a-java-script-with-jshell
 * https://www.baeldung.com/java-single-file-source-code
 
