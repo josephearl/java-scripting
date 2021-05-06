@@ -1,0 +1,17 @@
+#!/usr/bin/env java --source 11
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
+import java.util.HashSet;
+
+class comm {
+  public static void main(String[] args) throws IOException {
+    var uniqueLines1 = new HashSet<>(Files.readAllLines(Path.of(args[0])));
+    var uniqueLines2 = new HashSet<>(Files.readAllLines(Path.of(args[1])));
+    // Remove any entries from uniqueLines1 not in uniqueLines2
+    uniqueLines1.retainAll(uniqueLines2);
+    Files.write(Path.of(args[2]), uniqueLines1, StandardOpenOption.CREATE);
+  }
+}
