@@ -22,3 +22,4 @@ Scripts:
   * Single-File Source-Code Program with a Shebang: `./hello`
 * ls: `./ls [dir]`
 * curl: `./curl <url>`
+* comm: `./comm <file1> <file2> <outfile>`
